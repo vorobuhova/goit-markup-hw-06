@@ -7,7 +7,7 @@
     --team-bg-color: #f5f4fa;
     --footer-bg-color: #2f303a;
     --temporary-bg-color: #2f303a;
-    --button-bg-color: #f5f4fa;
+    --btn-bg-color: #f5f4fa;
     --card-set-gap: 30px;
     --social-links: #afb1b8;
 
@@ -230,7 +230,7 @@ img {
     cursor: pointer;
 }
 
-.hero-button {
+.hero-btn {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -247,10 +247,12 @@ img {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
     transition: background-color var(--animation-duration) var(--timing-function);
+
+    cursor: pointer;
 }
 
-.hero-button:hover,
-.hero-button:focus {
+.hero-btn:hover,
+.hero-btn:focus {
     background-color: var(--accent-color-hover);
 }
 
@@ -487,6 +489,8 @@ img {
 
 	fill: transparent;
 	background-color: transparent;
+
+    cursor: pointer;
 }
 
 .btn-submit {
@@ -509,6 +513,8 @@ img {
 	background-color: var(--accent-color);
 	outline-color: transparent;
 	transition: outline-color var(--animation-duration) var(--timing-function);
+
+    cursor: pointer;
 }
 
 .btn-submit:focus {
@@ -892,6 +898,8 @@ img {
 	color: var(--primary-white-color);
 	background-color: var(--accent-color);
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+    cursor: pointer;
 }
 
 .footer-send-icon {
@@ -901,18 +909,18 @@ img {
 
 /* --------------------- Our types of work--------------------- */
 
-.portfolio-button {
+.portfolio-btn {
     display: flex;
     justify-content: center;
     height: 54px;
     margin-bottom: 34px;
 }
 
-.button-link:not(:last-child) {
+.btn-link:not(:last-child) {
     margin-right: 8px;
 }
 
-.button-works {
+.btn-works {
     padding: 6px 22px;
     font-family: Roboto, sans-serif;
     font-weight: 500;
@@ -923,17 +931,19 @@ img {
 
     transition: color var(--animation-duration) var(--timing-function), background-color var(--animation-duration) var(--timing-function), box-shadow var(--animation-duration) var(--timing-function);
 
+    cursor: pointer;
+
 }
 
-.button-works:hover,
-.button-works:focus {
+.btn-works:hover,
+.btn-works:focus {
     color: var(--primary-white-color);
     background-color: var(--accent-color-hover);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 
 }
 
-.button-current {
+.btn-current {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
     box-shadow: 0px 3px 1px rgb(0 0 0 / 10%), 0px 1px 2px rgb(0 0 0 / 8%), 0px 2px 2px rgb(0 0 0 / 12%);
@@ -941,7 +951,7 @@ img {
 
 /* --------------------- Examples of our work--------------------- */
 
-.works-item-bottom {
+.works-item-btn {
     padding: 20px 24px;
     border-right: 1px solid #eeeeee;
     border-bottom: 1px solid #eeeeee;
