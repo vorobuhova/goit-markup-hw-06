@@ -18,10 +18,14 @@ body {
 	font-family: Roboto, sans-serif;
 	letter-spacing: 0.03em;
 
+<<<<<<< Updated upstream
 	color: var(--title-text-color);
 	background-color: var(--primary-white-color);
 }
 
+=======
+/* ---------------------Утиилиты--------------------- */
+>>>>>>> Stashed changes
 h1,
 h2,
 h3,
@@ -76,12 +80,19 @@ img {
 	list-style: none;
 }
 
+<<<<<<< Updated upstream
 .container {
 	width: 1200px;
 	padding-left: 15px;
 	padding-right: 15px;
 	margin-right: auto;
 	margin-left: auto;
+=======
+/* --------------------- Section--------------------- */
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+>>>>>>> Stashed changes
 }
 
 .section {
@@ -89,8 +100,12 @@ img {
 	padding-bottom: 94px;
 }
 
+<<<<<<< Updated upstream
 /* -------site-nav------- */
 
+=======
+/* --------------------- Header]--------------------- */
+>>>>>>> Stashed changes
 .header-border {
 	border-bottom: 1px solid #ececec;
 }
@@ -183,6 +198,7 @@ img {
 	color: var(--accent-color);
 }
 
+<<<<<<< Updated upstream
 .site-nav-text.current::after {
 	content: "";
 	display: block;
@@ -196,6 +212,22 @@ img {
 	height: 4px;
 	border-radius: 2px;
 	background-color: var(--accent-color);
+=======
+/* ---------------------  Hero--------------------- */
+.hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: var(--temporary-bg-color);
+    width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: var(--temporary-bg-color);
+>>>>>>> Stashed changes
 }
 
 .nav-contact-item:not(:first-child) {
@@ -511,11 +543,24 @@ img {
 	outline-color: var(--accent-color);
 }
 
+<<<<<<< Updated upstream
 /* -------advantages------- */
 
 .advantages-items {
 	display: flex;
 	justify-content: center;
+=======
+/* --------------------- advantages---------------------*/
+.advantages-box {
+    margin-bottom: var(--card-set-gap);
+    width: 270px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--team-bg-color);
+    border-radius: 4px;
+>>>>>>> Stashed changes
 }
 
 .advantages-item {
@@ -554,11 +599,17 @@ img {
 	color: var(--primary-text-color);
 }
 
+<<<<<<< Updated upstream
 /* -------wedo------- */
 
 .wedo-section {
 	padding-top: 0;
 	padding-bottom: 94px;
+=======
+/* --------------------- wedo--------------------- */
+.wedo {
+    padding-top: 0;
+>>>>>>> Stashed changes
 }
 
 .wedo-title {
@@ -667,6 +718,7 @@ img {
 	width: 44px;
 	height: 44px;
 
+<<<<<<< Updated upstream
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -676,6 +728,10 @@ img {
 
 	transition: background-color var(--animation-duration) var(--timing-function),
 		color var(--animation-duration) var(--timing-function);
+=======
+    transition: background-color var(--animation-duration) var(--timing-function), 
+    color var(--animation-duration) var(--timing-function);
+>>>>>>> Stashed changes
 }
 
 .team-social-link:hover,
@@ -688,8 +744,12 @@ img {
 	fill: currentColor;
 }
 
+<<<<<<< Updated upstream
 /* -------clients------- */
 
+=======
+/* --------------------- clients--------------------- */
+>>>>>>> Stashed changes
 .clients-title {
 	margin-top: 0;
 	margin-bottom: 50px;
@@ -727,6 +787,7 @@ img {
 	fill: currentColor;
 }
 
+<<<<<<< Updated upstream
 /* -------footer------- */
 
 .footer-container-all {
@@ -740,6 +801,9 @@ img {
 	align-items: baseline;
 }
 
+=======
+/* ---------------------footer--------------------- */
+>>>>>>> Stashed changes
 .footer-logo {
 	display: block;
 	margin-bottom: 20px;
@@ -828,10 +892,14 @@ img {
 	align-items: center;
 	justify-content: center;
 
+<<<<<<< Updated upstream
 	background-color: rgba(255, 255, 255, 0.1);
 	fill: var(--primary-white-color);
 
 	transition: background-color var(--animation-duration) var(--timing-function);
+=======
+    transition: background-color var(--animation-duration) var(--timing-function);
+>>>>>>> Stashed changes
 }
 
 .footer-socials-link:hover,
@@ -902,6 +970,7 @@ img {
 	fill: var(--primary-white-color);
 }
 
+<<<<<<< Updated upstream
 /* -------PORTPHOLIO------- */
 /* -------Types of work------- */
 
@@ -909,6 +978,14 @@ img {
 	display: flex;
 	justify-content: center;
 	margin-bottom: 50px;
+=======
+/* --------------------- Our types of work--------------------- */
+.portfolio-btn {
+    display: flex;
+    justify-content: center;
+    height: 54px;
+    margin-bottom: 34px;
+>>>>>>> Stashed changes
 }
 
 .work-button-li {
@@ -918,10 +995,15 @@ img {
 .work-button {
 	padding: 6px 22px;
 
+<<<<<<< Updated upstream
 	font-family: Roboto, sans-serif;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.62;
+=======
+    cursor: pointer;
+}
+>>>>>>> Stashed changes
 
 	border: none;
 	border-radius: 4px;
@@ -936,6 +1018,7 @@ img {
 	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
+<<<<<<< Updated upstream
 .work-button:hover,
 .work-button:focus {
 	color: var(--primary-white-color);
@@ -943,6 +1026,14 @@ img {
 	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 
 	cursor: pointer;
+=======
+/* --------------------- Examples of our work--------------------- */
+.works-item-btn {
+    padding: 20px 24px;
+    border-right: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
+>>>>>>> Stashed changes
 }
 
 /* -------works------- */
@@ -994,6 +1085,7 @@ img {
 	color: var(--primary-white-color);
 }
 
+<<<<<<< Updated upstream
 .works-item {
 	width: 370px;
 	margin: 15px;
@@ -1001,6 +1093,8 @@ img {
 	background-color: var(--primary-white-color);
 }
 
+=======
+>>>>>>> Stashed changes
 .works-link {
 	display: block;
 	width: 100%;
